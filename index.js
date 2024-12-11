@@ -15,7 +15,7 @@ app.get('/test', (req, res) => {
   const response = {
     name: 'Ricardo Mauricio Delgado Rivera',
     date: '2024-10-28',
-    timestamp: 1730258872,
+    timestamp: Date.now,
   };
   res.json(response);
 });
